@@ -44,6 +44,7 @@ const WeatherPage = () => {
     } catch (error: unknown) {
       if (error instanceof Error && toggleErrors) {
         toast.error(error.message, {
+          theme: "dark",
           position: "top-left",
         });
       } else {
@@ -81,9 +82,7 @@ const WeatherPage = () => {
 
     // Bereken gemiddelde met het totaal en de lengte van de array met waardes en rond af
     const average = Math.round(total / values.length);
-    // Bereken de max en rond af
     const max = Math.round(Math.max(...values) * 100) / 100;
-    // Bereken de min en rond af
     const min = Math.round(Math.min(...values) * 100) / 100;
 
     return { average, max, min };
