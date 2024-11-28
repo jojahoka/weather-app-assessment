@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a **Weather App** built with **ReactJS** and **TypeScript**. The application has a dashboard on which we retrieve generate mock data through a mock api.
+This is a **Weather App** built with **ReactJS** and **TypeScript** for an assessment. The application has a dashboard on which we retrieve data through a mock api.
 
 ---
 
@@ -24,15 +24,13 @@ Ensure you have the following installed on your machine:
 1. **Clone the repository:**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/jojahoka/weather-app-assessment
    ```
-
-   Replace `<repository-url>` with the link to the repository.
 
 2. **Navigate to the project directory:**
 
    ```bash
-   cd weather-app
+   cd weather-app-assessment
    ```
 
 3. **Install dependencies:**
@@ -44,7 +42,7 @@ Ensure you have the following installed on your machine:
 ### Running the Application
 
 **Start the development server:**
-To start a `development` version we can use:
+To start a `development` version you can use:
 
 ```bash
 npm run dev
@@ -57,12 +55,6 @@ npx vite --port=4000
 
 ```
 
-To build a `production` version we can use:
-
-```bash
-npm run build
-```
-
 ## Folder Structure
 
 - **`src`**: Contains all the source code
@@ -72,7 +64,7 @@ npm run build
 
 ---
 
-## Thought Process and made choices
+## Thought rocess and made choices
 
 1. **Project structure:**
 
