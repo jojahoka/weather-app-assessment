@@ -1,0 +1,23 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+}
+
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(71, 71, 71);
+}
+
+div {
+  box-sizing: border-box;
+}
