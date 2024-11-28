@@ -34,7 +34,7 @@ Ensure you have the following installed on your machine:
    ```
 
 3. **Install dependencies:**
-   If you're using `npm`:
+
    ```bash
    npm install
    ```
